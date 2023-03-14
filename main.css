@@ -1,0 +1,18 @@
+table,th,td{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+table{
+    height: 300px;
+    width: 500px;
+    background-color: #1fbdbd;
+    margin-left: auto;
+    margin-right: auto;
+}
+th,td{
+padding: 40px;
+
+}
+.row1{
+    background-color: #3aef49;
+}

@@ -1,0 +1,18 @@
+
+body{
+    background-image: url("images/city.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    padding-right: 500px;
+    margin: 300px;
+}
+input[type=text],input[type=name]{
+    border:1px solid white ;
+    border-radius: 10px;
+}
+input[type=subscribe]{
+    background-color: #42252c;
+    border-radius: 10px;
+}

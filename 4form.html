@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <link rel="stylesheet" href="4form.css">
+  <script type="text/javascript">
+    function  validate(){
+      var  projectname=document.getElementById("pn");
+      var assignedto=document.getElementById("asst");
+      var  startdate=document.getElementById("sd");
+      var  enddate=document.getElementById("end");
+      var  priority=document.getElementById("py");
+      var  description=document.getElementById("dsp");
+      if(projectname.value==""||  assignedto.value==""||  startdate.value==""||  enddate.value==""||  priority.value==""|| description.value==""){
+        alert("no blank spaces allowed");
+        return false;
+      }
+      return true;
+    }
+
+
+  </script>
+</head>
+<body>
+  <legend style="text-align: center"><u>Project Management<u/></legend>
+  <br>
+<form action="classes.html" onsubmit=" return validate()">
+
+  <label for="pn">Project Name</label>
+  <input type="text"id="pn" placeholder="project name"><br>
+  <label for="asst">Assigned to</label>
+  <input type="text"id="asst"placeholder="Er Merry Petson"><br><br>
+
+  <label for="sd">Start Date</label>
+  <input type="date"id="sd"><br><br>
+  <label for="end">End Date</label>
+  <input type="date"id="end"><br><br>
+
+  <label for="py">Priority</label>
+  <input type="radio"id="py">high
+  <input type="radio">average
+  <input type="radio"><br><br>
+
+
+  <label for="dsp">Description</label>
+  <textarea name="description" id="dsp" cols="30" rows="10"></textarea><br><br>
+  <input type="submit"value="submit">
+
+</form>
+
+</body>
+</html>

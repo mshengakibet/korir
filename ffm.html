@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        function validate(){
+            var name=document.getElementById("nme");
+            var  subject=document.getElementById("sb");
+            var  phone=document.getElementById("pn");
+            var  email=document.getElementById("eml");
+            var  mesage=document.getElementById("txar");
+            if(name.value=="" || subject.value=="" || phone.value=="" || email.value=="" || message.value==""){
+              alert("no blank values allowed") ;
+              return false;
+            }
+            else{
+                return true;
+            }
+        }
+
+
+
+
+    </script>
+    <link rel="stylesheet" href="fff.css">
+</head>
+<body>
+<form onsubmit=" return validate()" action="chelseafc.html">
+ <legend>Contact us</legend>
+    <br>
+<input type="text"id="nme" placeholder="Name"><br><br>
+<input type="text"id="sb" placeholder="Subject"><br><br>
+<input type="text"id="pn" placeholder="Phone"><br><br>
+<input type="text"id="eml" placeholder="Email"><br><br>
+    <textarea name="txar" id="" cols="30" rows="10"placeholder="message"></textarea><br><br>
+    <input type="submit"value="submit">
+</form>
+</body>
+</html>

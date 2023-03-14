@@ -1,0 +1,23 @@
+body{
+    background-color: #e85e22;
+}
+form{
+    padding:50px;
+    background-color: bisque;
+    margin-bottom: 500px;
+    margin-top: 300px;
+    margin-left: 500px;
+    margin-right: 600px;
+    box-shadow:  4px 3px 5px 5px black;
+
+}
+input[type=submit]{
+    background-color: #e85e22;
+}
+legend{
+    font-weight: bold;
+}
+input[type=submit]:hover{
+    background-color: #3aef49;
+    border-radius: 10px;
+}

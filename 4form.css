@@ -1,0 +1,15 @@
+form{
+    background-color: #1fbdbd;
+    margin: 200px;
+    padding-right: 500px;
+    padding-left: 200px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+input[type=submit]{
+    background-color: #3aef49;
+
+}
+legend{
+    font-weight: bold;
+}

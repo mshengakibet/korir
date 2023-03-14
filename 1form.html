@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>foerms html</title>
+    <script type="text/javascript">
+        function validate(){
+            var name=document.getElementById("nm");
+            var  email=document.getElementById("eml");
+            var investment=document.getElementById("inv");
+            var  datejoined=document.getElementById("dj");
+            var  active=document.getElementById("act");
+            if(name.value=="" ||email.value=="" ||  investment.value=="" ||  datejoined.value=="" || active.value==""){
+                alert("no blank spaces allowed");
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
+
+
+
+    </script>
+    <link rel="stylesheet" href="1form.css">
+</head>
+<body>
+
+
+
+<form action="classes.html" onsubmit="return validate()">
+<fieldset>
+    <label for="nm">Name*</label>
+    <input type="text"id="nm"><br><br>
+    <label for="eml">eMAIL*</label>
+    <input type="text"id="eml"><br><br>
+    <label for="inv">Investment</label>
+    <input type="text"id="inv"><br><br>
+    <label for="dj">Date Joined*</label>
+    <input type="date"id="dj"><br><br>
+    <label for="act">Active</label>
+    <input type="text"id="act"><br><br>
+    </fieldset>
+<br><br>
+
+    <input type="submit"value="Ok">
+
+</form>
+
+</body>
+</html>

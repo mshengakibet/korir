@@ -1,0 +1,9 @@
+input[type=submit]{
+    background-color:orangered;
+}
+form {
+    background-color: maroon;
+    padding: 90px;
+    margin: 90px;
+    margin-right: 70px;
+}

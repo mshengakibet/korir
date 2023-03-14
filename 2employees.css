@@ -1,0 +1,28 @@
+table{
+    height: 50px;
+    width: 100%;
+
+}
+table,th,td{
+    border-collapse: collapse;
+    border: 2px solid black;
+
+}
+.headings{
+    color: black;
+  }
+tr:hover{
+    background-color: blue;
+}
+tr:nth-child(odd){
+    background-color: darkslateblue;
+}
+th{
+    background-color: #1e8d56;
+}
+
+
+
+
+
+

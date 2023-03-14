@@ -1,0 +1,17 @@
+table{
+    height: 70px;
+    width: 80%;
+}
+table,th,td{
+    border: 1px solid green;
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+.him{
+ background-color: #e85e22;
+}
+.hh{
+    background-color: #e85e22;
+}
+
